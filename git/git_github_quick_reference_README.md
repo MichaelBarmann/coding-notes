@@ -8,22 +8,11 @@
 
 For PDE/ODE projects, Git provides a record of how solvers, notebooks, and utilities evolve over time.
 
-
-
-
-
 ## Setting Up a New GitHub Repository
-
-
 
 Use this when you already have a local folder and want to turn it into a GitHub repository.
 
-
-
-
-1. In PowerShell: go to the project folder
-
-
+### 1. In PowerShell: go to the project folder
 
 ```powershell
 
@@ -33,11 +22,7 @@ cd 00\_notes
 
 ```
 
-
-
 Check that you are in the right place:
-
-
 
 ```powershell
 
@@ -45,11 +30,7 @@ pwd
 
 ```
 
-
-
 ### 2. Initialize Git locally
-
-
 
 ```powershell
 
@@ -63,8 +44,6 @@ git branch -M main
 
 ### 3. Add and commit files
 
-
-
 ```powershell
 
 git status
@@ -75,11 +54,7 @@ git commit -m "Initial commit"
 
 ```
 
-
-
 ### 4. On GitHub.com: create the repository
-
-
 
 1\. Go to GitHub.
 
@@ -174,42 +149,25 @@ git push
 > ### Daily Workflow After Setup
 
 >
-
 > ```powershell
-
 > git status
-
 > git add .
-
 > git commit -m "Describe changes"
-
 > git push
-
 > ```
 
 
 
 ### If GitHub Already Added a File
 
-
-
 If you created the GitHub repo with a README, `.gitignore`, or license, your first push may be rejected. Fix it with:
 
-
-
 ```powershell
-
 git pull origin main --allow-unrelated-histories
-
 git push -u origin main
-
 ```
 
-
-
 If Git says you are still merging, check:
-
-
 
 ```powershell
 
@@ -217,26 +175,14 @@ git status
 
 ```
 
-
-
 Then conclude the merge:
-
-
 
 ```powershell
 
 git add .
-
 git commit -m "Merge remote files"
-
 git push -u origin main
-
 ```
-
-
-
-
-
 \---
 
 # 1\) Basic Git Definitions
@@ -422,14 +368,3 @@ Most recent commit
 ```
 
 and reports which files differ.
-
-
-
-
-
-
-
-
-
-
-
