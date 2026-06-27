@@ -47,7 +47,7 @@ pwd
 
 
 
-\### 2. Initialize Git locally
+### 2. Initialize Git locally
 
 
 
@@ -61,7 +61,7 @@ git branch -M main
 
 
 
-\### 3. Add and commit files
+### 3. Add and commit files
 
 
 
@@ -77,7 +77,7 @@ git commit -m "Initial commit"
 
 
 
-\### 4. On GitHub.com: create the repository
+### 4. On GitHub.com: create the repository
 
 
 
@@ -105,7 +105,7 @@ coding-notes
 
 
 
-\### 5. In PowerShell: connect local repo to GitHub
+### 5. In PowerShell: connect local repo to GitHub
 
 
 
@@ -145,7 +145,7 @@ git remote -v
 
 
 
-\### 6. Push to GitHub
+### 6. Push to GitHub
 
 
 
@@ -189,7 +189,7 @@ git push
 
 
 
-\### If GitHub Already Added a File
+### If GitHub Already Added a File
 
 
 
