@@ -21,7 +21,7 @@ Use this when you already have a local folder and want to turn it into a GitHub 
 
 
 
-### 1. In PowerShell: go to the project folder
+1. In PowerShell: go to the project folder
 
 
 
