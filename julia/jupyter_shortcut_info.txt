@@ -1,0 +1,3 @@
+Jupyter Lab shortcut
+Target: C:\Users\mbarm\anaconda3\Scripts\jupyter-lab.exe --notebook-dir="C:\Users\mbarm\Documents\Documents\01_GradSchool\03_code"
+This makes Jupyter Lab automatically open up to 01_GradSchool/03_code when the shortcut is double clicked. 
